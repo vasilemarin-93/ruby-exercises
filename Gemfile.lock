@@ -1,0 +1,84 @@
+GEM
+  specs:
+    benchmark (0.5.0)
+    erubi (1.13.1)
+    logger (1.7.0)
+    netrc (0.11.0)
+    parallel (2.1.0)
+    prism (1.9.0)
+    rbi (0.3.9)
+      prism (~> 1.0)
+      rbs (>= 3.4.4)
+    rbs (4.2.0)
+      logger
+      prism (>= 1.6.0)
+      tsort
+    require-hooks (0.2.2)
+    rexml (3.4.4)
+    sorbet (0.6.13028)
+      sorbet-static (= 0.6.13028)
+    sorbet-runtime (0.6.13028)
+    sorbet-static (0.6.13028-universal-darwin)
+    sorbet-static-and-runtime (0.6.13028)
+      sorbet (= 0.6.13028)
+      sorbet-runtime (= 0.6.13028)
+    spoom (1.7.11)
+      erubi (>= 1.10.0)
+      prism (>= 0.28.0)
+      rbi (>= 0.3.3)
+      rbs (>= 4.0.0.dev.4)
+      rexml (>= 3.2.6)
+      sorbet-static-and-runtime (>= 0.5.10187)
+      thor (>= 0.19.2)
+    tapioca (0.18.0)
+      benchmark
+      bundler (>= 2.2.25)
+      netrc (>= 0.11.0)
+      parallel (>= 1.21.0)
+      rbi (>= 0.3.7)
+      require-hooks (>= 0.2.2)
+      sorbet-static-and-runtime (>= 0.5.11087)
+      spoom (>= 1.7.9)
+      thor (>= 1.2.0)
+      tsort
+      yard-sorbet
+    thor (1.5.0)
+    tsort (0.2.0)
+    yard (0.9.45)
+    yard-sorbet (0.9.0)
+      sorbet-runtime
+      yard
+
+PLATFORMS
+  universal-darwin
+
+DEPENDENCIES
+  sorbet
+  sorbet-runtime
+  tapioca
+
+CHECKSUMS
+  benchmark (0.5.0)
+  bundler (4.0.20) sha256=7978a8ac648767f5e635bc522445b79e80a52b907a39a36c2d8085ed6bc762ae
+  erubi (1.13.1)
+  logger (1.7.0)
+  netrc (0.11.0)
+  parallel (2.1.0)
+  prism (1.9.0)
+  rbi (0.3.9)
+  rbs (4.2.0)
+  require-hooks (0.2.2)
+  rexml (3.4.4)
+  sorbet (0.6.13028)
+  sorbet-runtime (0.6.13028)
+  sorbet-static (0.6.13028-universal-darwin)
+  sorbet-static-and-runtime (0.6.13028)
+  spoom (1.7.11)
+  tapioca (0.18.0)
+  thor (1.5.0)
+  tsort (0.2.0)
+  yard (0.9.45)
+  yard-sorbet (0.9.0)
+
+BUNDLED WITH
+  4.0.20
