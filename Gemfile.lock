@@ -1,6 +1,7 @@
 GEM
   specs:
     benchmark (0.5.0)
+    diff-lcs (1.6.2)
     erubi (1.13.1)
     logger (1.7.0)
     netrc (0.11.0)
@@ -15,6 +16,19 @@ GEM
       tsort
     require-hooks (0.2.2)
     rexml (3.4.4)
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.8)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.7)
     sorbet (0.6.13028)
       sorbet-static (= 0.6.13028)
     sorbet-runtime (0.6.13028)
@@ -53,6 +67,7 @@ PLATFORMS
   universal-darwin
 
 DEPENDENCIES
+  rspec
   sorbet
   sorbet-runtime
   tapioca
@@ -60,6 +75,7 @@ DEPENDENCIES
 CHECKSUMS
   benchmark (0.5.0)
   bundler (4.0.20) sha256=7978a8ac648767f5e635bc522445b79e80a52b907a39a36c2d8085ed6bc762ae
+  diff-lcs (1.6.2)
   erubi (1.13.1)
   logger (1.7.0)
   netrc (0.11.0)
@@ -69,6 +85,11 @@ CHECKSUMS
   rbs (4.2.0)
   require-hooks (0.2.2)
   rexml (3.4.4)
+  rspec (3.13.2)
+  rspec-core (3.13.6)
+  rspec-expectations (3.13.5)
+  rspec-mocks (3.13.8)
+  rspec-support (3.13.7)
   sorbet (0.6.13028)
   sorbet-runtime (0.6.13028)
   sorbet-static (0.6.13028-universal-darwin)
