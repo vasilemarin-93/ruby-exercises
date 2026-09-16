@@ -74,7 +74,6 @@ DEPENDENCIES
 
 CHECKSUMS
   benchmark (0.5.0)
-  bundler (4.0.20) sha256=7978a8ac648767f5e635bc522445b79e80a52b907a39a36c2d8085ed6bc762ae
   diff-lcs (1.6.2)
   erubi (1.13.1)
   logger (1.7.0)
@@ -102,4 +101,4 @@ CHECKSUMS
   yard-sorbet (0.9.0)
 
 BUNDLED WITH
-  4.0.20
+  4.0.15
